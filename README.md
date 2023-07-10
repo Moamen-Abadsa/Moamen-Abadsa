@@ -1,16 +1,33 @@
-### Hi there 👋
+Hi there 👋 i'm Moamen El-Abadsa
+I am a flutter developer with expertise in various languages and tools such Android , Java , kotlin , php , laravel , Dart , C# , Unity , swift , IOS , SQL
 
-<!--
-**Moamen-Abadsa/Moamen-Abadsa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+    class Moamen extends Developer
+    {
+        public String $name = "Moamen El-Abadsa";
+        public String $position = "Flutter Developer";
+    
+        public function knowledge()
+        {
+            return collect([
+                "Android",
+                "Laravel",
+                "Flutter",
+                "Dart",
+                "PHP",
+                "Java",
+                "Kotlin",
+                "Unity",
+                "Swift",
+            ]);
+        }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        public function contacts()
+        {
+            return collect([
+                "LinkedIn" => "https://www.linkedin.com/in/moamen-s-el-abadsa-095025254/",
+                "github" => "https://github.com/Muhanned-Anwar",
+                "phone" => 0598624222,
+            ]);
+        }
+    }
